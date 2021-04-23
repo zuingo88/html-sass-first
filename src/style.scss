@@ -1,0 +1,54 @@
+$background_div: #845ec2;
+$p_btn_color: white;
+$small_div: calc((100% - 350px) / 2);
+$large_div: 750px;
+
+body {
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+  color: burlywood;
+
+  &:hover {
+    color: crimson;
+  }
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  div {
+      margin: 25px;
+      padding: 15px;
+      text-align: center;
+      background-color: $background_div;
+
+      p,
+      button {
+          color: $p_btn_color;
+      }
+
+      button {
+          padding: 10px;
+          background-color: black;
+
+          &:hover {
+              background-color: tan;
+              color: black;
+          }
+      }
+  }
+
+  .primo,
+  .secondo {
+      width: $small_div;
+  }
+
+  .terzo {
+      width: $large_div;
+  }
+}

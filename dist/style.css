@@ -1,0 +1,42 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+  color: burlywood;
+}
+h1:hover {
+  color: crimson;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main div {
+  margin: 25px;
+  padding: 15px;
+  text-align: center;
+  background-color: #845ec2;
+}
+main div p,
+main div button {
+  color: white;
+}
+main div button {
+  padding: 10px;
+  background-color: black;
+}
+main div button:hover {
+  background-color: tan;
+  color: black;
+}
+main .primo,
+main .secondo {
+  width: calc((100% - 350px) / 2);
+}
+main .terzo {
+  width: 750px;
+}
